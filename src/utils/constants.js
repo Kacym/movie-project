@@ -26,4 +26,8 @@ export const movies = [
     rating: 5,
     img: "https://m.media-amazon.com/images/M/MV5BMTcwNTE4MTUxMl5BMl5BanBnXkFtZTcwMDIyODM4OA@@._V1_FMjpg_UX1000_.jpg",
 },
+{
+    id: 5,
+    title: "Some"
+}
 ];
