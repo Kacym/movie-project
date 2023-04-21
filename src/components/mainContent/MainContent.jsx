@@ -1,4 +1,3 @@
-import React from 'react'
 import './MainContent.css'
 import Button from '../UI/Button/Button'
 
@@ -7,7 +6,7 @@ const MainContent = (props) => {
   return (
     <div className='mainContent'>
         <ul className='movieList'>
-            <li className="movieListItem">
+            <li key={id} className="movieListItem">
               <div className="movieImage">
                 <img src={img} alt={id} />
               </div>

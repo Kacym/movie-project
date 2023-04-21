@@ -1,0 +1,30 @@
+.modalForm {
+    position: fixed;
+    width: 70%;
+    margin-top: 40%;
+    z-index: 2;
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+.modalCloser {
+    position: absolute;
+    font-size: 60px;
+    top: -12px;
+    left: 92%;
+    cursor: pointer;
+}
+label {
+    display: flex;
+    font-size: 20px;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+input {
+    display: block;
+    margin-bottom: 40px;
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+}
