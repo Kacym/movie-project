@@ -14,7 +14,6 @@
     margin-bottom: 20px;
     width: 100%;
     box-shadow: 3px 3px 9px;
-
 }
 .movieInfo {
     padding: 10px;
@@ -35,7 +34,7 @@
 }
 .movieImage {
     width: 200px;
-    height: 160px;
+    height: 180px;
 }
 .movieImage > img {
     border-top-left-radius: 9px;
