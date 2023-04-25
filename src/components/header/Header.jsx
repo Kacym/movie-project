@@ -16,7 +16,7 @@ const Header = ( {setMovie} ) => {
         <h1 className='head__text'>Favorite movies</h1>
         <Button style={{backgroundColor: "orange"}} title="add movie" onClick={openAndCloseModalHandler}/>
         {
-          showForm && <Modal setMovie={setMovie} openAndCloseModalHandler={openAndCloseModalHandler}/>
+          showForm && <Modal className='from-add-the-new-movie' setMovie={setMovie} openAndCloseModalHandler={openAndCloseModalHandler}/>
         }
         </div>
   )

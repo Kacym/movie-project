@@ -16,11 +16,13 @@ function App() {
   return (
     <div className="App">
       <Header setMovie={setMovie}/>
+      <div className='main'>
       {
         movie.map(({id, title, rating, img})=> {
           return <MainContent onDelete={deleteHandler} setMovie={setMovie} id={id} title={title} rating={rating} img={img}/>
         })
       }
+      </div>
     </div>
   );
 }
