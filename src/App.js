@@ -9,7 +9,6 @@ function App() {
 
   function deleteHandler(id) {
     const newData = movie.filter((el) => el.id !== id)
-    console.log(newData);
     setMovie(newData)
   }
 
