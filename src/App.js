@@ -6,12 +6,20 @@ import { movies } from './utils/constants';
 
 function App() {
   const [movie, setMovie] = useState(movies)
+
+  function deleteHandler(id) {
+    const newData = movie.filter((el) => el.id !== id)
+    console.log(newData);
+    setMovie(newData)
+  }
+
+
   return (
     <div className="App">
       <Header setMovie={setMovie}/>
       {
         movie.map(({id, title, rating, img})=> {
-          return <MainContent id={id} title={title} rating={rating} img={img}/>
+          return <MainContent onDelete={deleteHandler} setMovie={setMovie} id={id} title={title} rating={rating} img={img}/>
         })
       }
     </div>
